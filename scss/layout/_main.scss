@@ -1,0 +1,44 @@
+@use '../util' as u;
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+.container-general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    padding: u.rem(20) u.rem(40);
+    margin-top: u.rem(30);
+    margin-bottom: u.rem(24);
+    border-radius: u.rem(14);
+}
+.container-img {
+    height: u.rem(85);
+    margin-bottom: u.rem(20);
+    margin-top: u.rem(20);
+}
+.container-img img {
+    height: 100%;
+    border-radius: u.rem(45);
+}
+
+button {
+    width: u.rem(300);
+    height: u.rem(46);
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: u.rem(12);
+    margin-bottom: u.rem(16);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: hsl(75, 94%, 57%);
+    transition: 0.25s;
+}
