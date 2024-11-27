@@ -36,16 +36,16 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
-p {
+p, a {
   font-size: 0.875rem;
   margin-top: 0;
   margin-bottom: 1.5rem;
 }
 
-.text-button {
-  margin: auto;
+.button-social a {
   font-weight: 700;
   color: white;
+  line-height: 2.875rem; /* line height same as container height to center the text */
 }
 
 a, a:visited, a:active {
@@ -84,20 +84,21 @@ a, a:visited, a:active {
   border-radius: 2.8125rem;
 }
 
-button {
+.button-social {
   width: 18.75rem;
   height: 2.875rem;
   background-color: hsl(0, 0%, 20%);
   border: none;
   border-radius: 0.75rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
-button:hover {
+.button-social:hover {
   cursor: pointer;
 }
 
-button:active {
+.button-social:active {
   background-color: hsl(75, 94%, 57%);
   transition: 0.25s;
 }/*# sourceMappingURL=style.css.map */

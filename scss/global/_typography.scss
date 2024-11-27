@@ -15,16 +15,16 @@ h2 {
     margin-bottom: u.rem(24);
 }
 
-p {
+p, a {
     font-size: u.rem(14);
     margin-top: 0;
     margin-bottom: u.rem(24);
 }
 
-.text-button {
-    margin: auto;
+.button-social a {
     font-weight: 700;
     color: white;
+    line-height: u.rem(46); /* line height same as container height to center the text */
 }
 
 a, a:visited, a:active {
